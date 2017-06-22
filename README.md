@@ -1,4 +1,4 @@
-# P4 time-stamping simulation
+# P4 Time-Stamping Simulation
 
 ## Some Background First
 In our project we add a few time sampling features to the behavioral model of the P4 code.
