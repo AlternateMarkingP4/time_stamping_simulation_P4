@@ -1,0 +1,5 @@
+table_set_default set_port _drop
+table_add set_port _set_port 2147483648&&&0b10000000000000000000000000000000 03 => 02 1
+//table_add set_port _set_port 0&&&0b10000000000000000000000000000000 03 => 01 2
+table_add set_port _set_port 0&&&0 02 => 03 3
+table_add set_port _set_port 0&&&0 01 => 03 4
