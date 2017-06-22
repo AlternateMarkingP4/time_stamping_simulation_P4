@@ -10,7 +10,7 @@ This simulation was run on Ubuntu 14.04 and on Mininet 2.2.2. It should work on 
 
 
 ## Topology
-The topology we use in our simulation network is as follows : ![Topology](https://github.com/MichaelBun/time_stamping_simulation_P4/blob/master/topology.jpg)
+The topology we use in our simulation network is as follows : ![Topology](https://github.com/MichaelBun/time_stamping_simulation_P4/blob/master/topology-resized.jpg)
 
 ## Installation
 
