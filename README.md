@@ -41,6 +41,7 @@ The topology we use in our simulation network is as follows : ![Topology](https:
 5. When you are done, you must exit the Mininet environment using `exit` in the mininet promt [2]
 
 **[1]** The bandwidth can be changed in the topo.py file, and the time periods for routing in each path can be changed in the `commands1.txt` for the first switch and in the `commands4.txt` for the fourth switch
+
 **[2]** If Mininet was closed improperly, please use `sudo mn` before doing anything else to clean up any residue left by the Mininet software
 
 ## Credits
