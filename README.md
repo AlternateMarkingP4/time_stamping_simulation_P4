@@ -25,7 +25,7 @@ The topology we use in our simulation network is as follows : ![Topology](https:
 	 - `autogen.sh`
 	 - `configure`
     Use `make` to build the code
-6.	From the directory containing `bmv2` and `p4c-bmv2`, run: `git clone https://github.com/MichaelBun/time_stamping_simulation_P4.git tss`.
+6.	From the directory containing `bmv2` and `p4c-bmv2`, run: ```git clone https://github.com/MichaelBun/time_stamping_simulation_P4.git tss```
 7.  Install Mininet (skip this part if you already have the newest Mininet version installed). From the desired location, run by order:
 	 - `git clone git://github.com/mininet/mininet`
 	 - `mininet/util/install.sh`
@@ -36,9 +36,10 @@ The topology we use in our simulation network is as follows : ![Topology](https:
 1. Move to the `tss/simulation` directory, and run the script `run_demo.sh` (add execution permission if needed).
 2. Check if the system topology is connected using `h1 ping h2`. If you see that packets are transmitted between the hosts you can move on to the next step
 3. Inside the mininet command prompt open a terminal for hosts 1 and 2 using : `xterm h1 h2`
-4. Run on host 1: `iperf -su -i -1`, and on host 2: `iperf -c 10.0.0.1 -u -b 10m` [1]
-          All of the parameters must be set before running the run_demo.sh script (Before starting the mininet environment)
-5. When you are done, you must exit the Mininet environment using `exit` in the mininet promt [2]
+4. Run on host 1: `iperf -su -i -1`, and on host 2: `iperf -c 10.0.0.1 -u -b 10m` `[1]`
+
+All of the parameters must be set before running the run_demo.sh script (Before starting the mininet environment)
+5. When you are done, you must exit the Mininet environment using `exit` in the mininet promt `[2]`
 
 #### Notes
 1. The bandwidth can be changed in the topo.py file, and the time periods for routing in each path can be changed in the `commands1.txt` for the first switch and in the `commands4.txt` for the fourth switch
