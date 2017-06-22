@@ -3,7 +3,7 @@ In addition we created a simulation network model that demonstrates the benefits
 Specifically we use the new functionality to exhibit a round-robin like routing, that helps us load balance the system, in order to increase packet throughput.
 Our system is based in the source routig example from the SIGCOMM 2015 P4 tutorial, and our switch code is based on the P4 simple router example.
 
-The topology we use in our simulation network is as follows : /*Image of topology*/
+The topology we use in our simulation network is as follows : ![Topology](https://github.com/MichaelBun/time_stamping_simulation_P4/blob/master/topology.jpg)
 
 Please follow the next instructions in order to install P4, our simulation environment, and anything else needed for you to start using these tools:
 	NOTE : This simulation was run on Ubuntu 14.04 and on Mininet 2.2.2. It should work on later versions as well.
