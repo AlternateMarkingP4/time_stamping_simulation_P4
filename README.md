@@ -1,11 +1,11 @@
 # P4 time-stamping simulation
 
-## Some background first
+## Some Background First
 In our project we add a few time sampling features to the behavioral model of the P4 code.
 In addition we created a simulation network model that demonstrates the benefits of the meantioned features.
 Specifically we use the new functionality to exhibit a round-robin like routing, that helps us load balance the system, in order to increase packet throughput.
 
-## Before Getting Started
+#### Before Getting Started
 This simulation was run on Ubuntu 14.04 and on Mininet 2.2.2. It should work on later versions as well.
 
 
