@@ -8,7 +8,7 @@ Specifically, this repository includes a demo that uses the time-of-day metadata
 
 #### Before Getting Started
 This simulation was run on Ubuntu 14.04 and on Mininet 2.2.2. It should work on later versions as well.
-
+***TODO : ADD REQUIRED SPACE***
 
 ## Topology
 The topology we use in our simulation network is as follows : ![Topology](https://github.com/MichaelBun/time_stamping_simulation_P4/blob/master/topology-resized.jpg)
@@ -41,7 +41,7 @@ The topology we use in our simulation network is as follows : ![Topology](https:
 5. When you are done, you must exit the Mininet environment using `exit` in the mininet promt (**See note 2**)
 
 ## Changing Time Periods
-TODO
+***TODO***
 
 #### Notes
 1. The bandwidth can be changed in the topo.py file, and the time periods for routing in each path can be changed in the `commands1.txt` for the first switch and in the `commands4.txt` for the fourth switch
