@@ -48,4 +48,4 @@ The topology we use in our simulation network is as follows : ![Topology](https:
 ## Credits
 This project was built by Michael Bunin and Elad Galili (undergrad students in the Technion - Israel Institute of Technology) for their BSc degree with the supervision of Tal Mizrahi, PhD, in association with Marvell Israel.
 
-Our system is based in the source routig example from the SIGCOMM 2015 P4 tutorial, and our switch code is based on the P4 simple router example.
+Our system is based in the source routing example from the SIGCOMM 2015 P4 tutorial, and our switch code is based on the P4 simple router example.
