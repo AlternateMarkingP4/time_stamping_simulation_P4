@@ -40,7 +40,7 @@ The topology we use in our simulation network is as follows : ![Topology](https:
 4. Run on host 1: `iperf -su -i -1`, and on host 2: `iperf -c 10.0.0.1 -u -b 10m` (**See note 1**). All of the parameters must be set before running the run_demo.sh script (Before starting the mininet environment)
 5. When you are done, you must exit the Mininet environment using `exit` in the mininet promt (**See note 2**)
 
-## Changing Time Periods
+### Changing Time Periods
 ***TODO***
 
 #### Notes
