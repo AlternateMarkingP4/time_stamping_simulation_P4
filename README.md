@@ -1,9 +1,10 @@
 # P4 Time-Stamping Simulation
 
 ## Some Background First
-In our project we add a few time sampling features to the behavioral model of the P4 code.
-In addition we created a simulation network model that demonstrates the benefits of the meantioned features.
-Specifically we use the new functionality to exhibit a round-robin like routing, that helps us load balance the system, in order to increase packet throughput.
+This project adds a time-of-day field to the P4 metadata in the behavioral model of the P4 code.
+The time-of-day metadata can be used as part of the P4 match procedure.
+In addition we created a MiniNet simulation network model that demonstrates the benefits of the mentioned features.
+Specifically, this repository includes a demo that uses the time-of-day metadata to exhibit a round-robin like routing, that helps us load balance the system, in order to increase packet throughput.
 
 #### Before Getting Started
 This simulation was run on Ubuntu 14.04 and on Mininet 2.2.2. It should work on later versions as well.
@@ -17,7 +18,7 @@ The topology we use in our simulation network is as follows : ![Topology](https:
 1.  Run: `sudo apt-get install python-pip` and `sudo apt-get install git`
 2.  Select or create a directory for the project and change current directory to it using the terminal
 3.  Run: `git clone https://github.com/MichaelBun/behavioral-model bmv2` and `git clone https://github.com/MichaelBun/p4c-bm p4c-bmv2`
-    we are cloning the P4 required files and its behavioral model. Please notice, the directories must be in the same parent directory.
+    we are cloning the P4 required files and its behavioral model. Please notice, the `bmv2`, `p4c-bmv2` directories must be in the same parent directory.
 4.  Enter the `p4c-bmv2` directory, and run: `sudo pip install -r requirements.txt`
 5.  Return to the parent directory and move to the `bmv2` directory
     Run the following scripts by order (add execution permission if needed):
@@ -25,7 +26,7 @@ The topology we use in our simulation network is as follows : ![Topology](https:
 	 - `autogen.sh`
 	 - `configure`
 	 -  Use`make` to build the code
-6.	From the directory containing `bmv2` and `p4c-bmv2`, run: ```git clone https://github.com/MichaelBun/time_stamping_simulation_P4.git tss```
+6.	From the parent directory containing `bmv2` and `p4c-bmv2`, run: ```git clone https://github.com/MichaelBun/time_stamping_simulation_P4.git tss```
 7.  Install Mininet (skip this part if you already have the newest Mininet version installed). From the desired location, run by order:
 	 - `git clone git://github.com/mininet/mininet`
 	 - `mininet/util/install.sh`
