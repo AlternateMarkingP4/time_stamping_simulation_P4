@@ -50,7 +50,7 @@ All of the parameters must be set before running the run_demo.sh script (Before 
 You can change the time periods by which you decide how to route the packets. <br /> 
 The files `commands1.txt` to `commands4.txt` contain routing tables that are applied by the switches. <br />
 The first field matched in the `set_port` table, is the 64-bit time of day (`tod`) field, and the second one is the ingress port. <br />
-The parameter specified in the output (after the `=>`) is the egress port set for the packet. <br />
+The parameter specified in the output (after the `=>` symbol) is the egress port set for the packet. <br />
 Finally, the last number in each entry specifies its priority.
 
 #### Note
