@@ -19,8 +19,8 @@ The topology we use in our simulation network is as follows : ![Topology](https:
 2.  Select or create a directory for the project and change current directory to it using the terminal
 3.  Run: 
 	- `git clone https://github.com/MichaelBun/behavioral-model bmv2`
-	- `git clone https://github.com/MichaelBun/p4c-bm p4c-bmv2`
-    we are cloning the P4 required files and its behavioral model. Please notice, the `bmv2`, `p4c-bmv2` directories must be in the same parent directory.
+	- `git clone https://github.com/MichaelBun/p4c-bm p4c-bmv2` <br />
+    We are cloning the P4 required files and its behavioral model. Please notice, the `bmv2`, `p4c-bmv2` directories must be in the same parent directory.
 4.  Enter the `p4c-bmv2` directory, and run: `sudo pip install -r requirements.txt`
 5.  Return to the parent directory and move to the `bmv2` directory
     Run the following scripts by order (add execution permission if needed):
@@ -28,8 +28,10 @@ The topology we use in our simulation network is as follows : ![Topology](https:
 	 - `autogen.sh`
 	 - `configure`
 	 -  Use`make` to build the code
-6.	From the parent directory containing `bmv2` and `p4c-bmv2`, run: ```git clone https://github.com/MichaelBun/time_stamping_simulation_P4.git tss```
-7.  Install Mininet (skip this part if you already have the newest Mininet version installed). From the desired location, run by order:
+6.	From the parent directory containing `bmv2` and `p4c-bmv2`. <br /> 
+	Run: ```git clone https://github.com/MichaelBun/time_stamping_simulation_P4.git tss```
+7.  Install Mininet (skip this part if you already have the newest Mininet version installed). <br />
+	From the desired location, run by order:
 	 - `git clone git://github.com/mininet/mininet`
 	 - `mininet/util/install.sh`
 8.  Install the `scapy`, `thrift`, and `networkx` python packeges, running: `sudo pip install scapy thrift networkx`
