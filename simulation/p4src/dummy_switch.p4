@@ -2,14 +2,6 @@
 #include "includes/parser.p4"
 #include "includes/intrinsic.p4"
 
-//header_type standart_intrinsic_metadata_t {
-//    fields {
-//		ingress_port : 8;
-//   	 }
-//}
-
-
-//metadata standart_intrinsic_metadata_t ingress_metadata;
 metadata ingress_intrinsic_metadata_t intrinsic_metadata;
 
 action _drop() {
@@ -39,5 +31,4 @@ control ingress {
 }
 
 control egress {
-	//apply(set_port);
 }
