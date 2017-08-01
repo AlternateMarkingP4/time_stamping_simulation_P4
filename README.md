@@ -19,7 +19,7 @@ The topology we use in our simulation network is as follows : ![Topology](https:
 2.  Select or create a directory for the project and change current directory to it using the terminal
 3.  Run: 
 	- `git clone https://github.com/MichaelBun/behavioral-model bmv2`
-	- `https://github.com/p4lang/p4c-bm` <br />
+	- `git clone https://github.com/p4lang/p4c-bm p4c-bmv2` <br />
     We are cloning the P4 required files and its behavioral model. Please notice, the `bmv2`, `p4c-bmv2` directories must be in the same parent directory.
 4.  Enter the `p4c-bmv2` directory, and run: `sudo pip install -r requirements.txt`
 5.  Return to the parent directory and move to the `bmv2` directory. <br /> 
