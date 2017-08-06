@@ -27,7 +27,7 @@ The topology we use in our simulation network is as follows : ![Topology](https:
 	 - `install_deps.sh`
 	 - `autogen.sh`
 	 - `configure`
-	 -  Use`make` to build the code
+	 -  Use `make` to build the code
 6.	From the parent directory containing `bmv2` and `p4c-bmv2`. <br /> 
 	Run: ```git clone https://github.com/MichaelBun/time_stamping_simulation_P4.git tss```
 7.  Install Mininet (skip this part if you already have the newest Mininet version installed). <br />
